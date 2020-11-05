@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>InodShop</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<table id="cartTable">
+    <thead>
+        <tr>
+            <th><label><input class="check-all check" type="checkbox"/>&nbsp;Check All</label></th>
+            <th>Products</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove item</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+            <td class="goods"><img src="C:\Users\Tanko\Desktop\Shopping-Cart-Demo-master\images\download.jpg" alt=""/><span>Latest Apple Laptop</span></td>
+            <td class="price">600.00</td>
+            <td class="count">
+                <span class="reduce"></span>
+                <input class="count-input" type="text" value="1"/>
+                <span class="add">+</span></td>
+            <td class="subtotal">740.99</td>
+            <td class="operation"><span class="delete">Remove</span></td>
+        </tr>
+        <tr>
+            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+            <td class="goods"><img src="C:\Users\Tanko\Desktop\Shopping-Cart-Demo-master\images\watch.jpg" alt=""/><span>Watch</span></td>
+            <td class="price">78.50</td>
+            <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+            <td class="subtotal">400.00</td>
+            <td class="operation"><span class="delete">Remove</span></td>
+        </tr>
+        <tr>
+            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+            <td class="goods"><img src="C:\Users\Tanko\Desktop\Shopping-Cart-Demo-master\images\christopher-gower-m_HRfLhgABo-unsplash.jpg" alt=""/><span>Accer</span></td>
+            <td class="price">89.00</td>
+            <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+            <td class="subtotal">120.00</td>
+            <td class="operation"><span class="delete">Remove</span></td>
+        </tr>
+        <tr>
+            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+            <td class="goods"><img src="C:\Users\Tanko\Desktop\Shopping-Cart-Demo-master\images\images (2).jpg" alt=""/><span>HP Laptop charger</span></td>
+            <td class="price">8988.88</td>
+            <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+            <td class="subtotal">900.00</td>
+            <td class="operation"><span class="delete">Remove</span></td>
+        </tr>
 
+        <tr>
+            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+            <td class="goods"><img src="C:\Users\Tanko\Desktop\Shopping-Cart-Demo-master\images\images (1).jpg" alt=""/><span>Toshiba</span></td>
+            <td class="price">8988.88</td>
+            <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+            <td class="subtotal">900.00</td>
+            <td class="operation"><span class="delete">Remove</span></td>
+        </tr>
+    </tbody>,                  
+</table>
+
+<div class="foot" id="foot">
+    <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;Check All</label>
+    <a class="fl delete" id="deleteAll" href="javascript:;">Remove</a>
+    <div class="fr closing">Find Product</div>
+    <div class="fr total">Total Amount：GHS<span id="priceTotal">0.00</span></div>
+    <div class="fr selected" id="selected">Added Items to Cart
+        <span id="selectedTotal">0</span>
+        <span class="arrow up">︽</span> 
+        <span class="arrow down">︾</span>
+    </div>
+    <div class="selected-view">
+        <div id="selectedViewList" class="clearfix">
+        
+        </div>
+        <span class="arrow">◆<span>◆</span></span>
+    </div>
+</div>
+<h1>Inod Digital Store</h1>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
